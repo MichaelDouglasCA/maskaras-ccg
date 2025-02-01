@@ -2,3 +2,8 @@ export { maskCPF } from "./cpf";
 export { maskCNPJ } from "./cnpj";
 export { maskPhone } from "./phone";
 export { maskCEP } from "./cep";
+export { maskRG } from "./rg";
+export { maskCreditCard } from "./creditCard";
+export { maskDate } from "./date";
+export { maskTime } from "./time";
+export { validateCPF } from "./validatecpf";
