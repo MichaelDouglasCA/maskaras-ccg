@@ -1,6 +1,6 @@
 {
     "name": "mask-utils-ccg",
-    "version": "3.0.1",
+    "version": "3.1.0",
     "description": "Biblioteca de máscaras para CPF, CNPJ, Telefone e CEP",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
