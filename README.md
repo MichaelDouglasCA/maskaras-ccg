@@ -1,4 +1,4 @@
-```md
+```
 # mask-utils
 
 🚀 Biblioteca de máscaras para JavaScript e TypeScript, ideal para formatação de números, datas, CPF, CNPJ, telefones e muito mais.
