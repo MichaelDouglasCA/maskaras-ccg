@@ -1,5 +1,5 @@
-```
-# mask-utils
+
+# mask-utils-ccg
 
 🚀 Biblioteca de máscaras para JavaScript e TypeScript, ideal para formatação de números, datas, CPF, CNPJ, telefones e muito mais.
 
@@ -7,14 +7,14 @@
 
 Você pode instalar o pacote via **npm** ou **yarn**:
 
+### Usando npm:
 ```sh
-npm install mask-utils
+npm install mask-utils-ccg
 ```
 
-ou
-
+### Usando yarn:
 ```sh
-yarn add mask-utils
+yarn add mask-utils-ccg
 ```
 
 ## 🚀 Uso
@@ -23,12 +23,12 @@ yarn add mask-utils
 
 #### JavaScript (CommonJS)
 ```js
-const { maskCPF, maskCNPJ, maskPhone } = require('mask-utils');
+const { maskCPF, maskCNPJ, maskPhone, maskDate } = require('mask-utils-ccg');
 ```
 
 #### TypeScript (ES Modules)
 ```ts
-import { maskCPF, maskCNPJ, maskPhone } from 'mask-utils';
+import { maskCPF, maskCNPJ, maskPhone, maskDate } from 'mask-utils-ccg';
 ```
 
 ### Exemplos de Uso
@@ -56,28 +56,31 @@ maskDate("20250201"); // Saída: "01/02/2025"
 ## 📚 Lista de Máscaras Disponíveis
 
 | Função         | Descrição                           | Exemplo de Entrada | Exemplo de Saída    |
-|---------------|-----------------------------------|-------------------|--------------------|
-| `maskCPF`     | Aplica máscara de CPF            | `"12345678900"`   | `"123.456.789-00"` |
-| `maskCNPJ`    | Aplica máscara de CNPJ           | `"12345678000195"`| `"12.345.678/0001-95"` |
-| `maskPhone`   | Aplica máscara de telefone       | `"62987654321"`   | `"(62) 98765-4321"` |
-| `maskDate`    | Aplica máscara de data (DD/MM/YYYY) | `"20250201"`   | `"01/02/2025"` |
+|----------------|-------------------------------------|--------------------|---------------------|
+| `maskCPF`      | Aplica máscara de CPF               | `"12345678900"`    | `"123.456.789-00"`  |
+| `maskCNPJ`     | Aplica máscara de CNPJ              | `"12345678000195"` | `"12.345.678/0001-95"` |
+| `maskPhone`    | Aplica máscara de telefone          | `"62987654321"`    | `"(62) 98765-4321"` |
+| `maskDate`     | Aplica máscara de data (DD/MM/YYYY) | `"20250201"`       | `"01/02/2025"`      |
 
 ## 💻 Desenvolvimento
 
-Se quiser contribuir com melhorias ou adicionar novas máscaras, siga os passos:
+Se quiser contribuir com melhorias ou adicionar novas máscaras, siga os passos abaixo:
 
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/MichaelDouglasCA/mask-utils.git
+   git clone https://github.com/MichaelDouglasCA/maskaras-ccg.git
    ```
+
 2. Instale as dependências:
    ```sh
    npm install
    ```
+
 3. Faça as alterações e rode os testes:
    ```sh
    npm test
    ```
+
 4. Crie um **Pull Request**.
 
 ## 📜 Licença
@@ -86,5 +89,6 @@ Este projeto está sob a licença **MIT**. Sinta-se livre para usá-lo e contrib
 
 ---
 
-Desenvolvido por [CCG Studios Tec](https://github.com/MichaelDouglasCA) 🚀
-```
+Desenvolvido por [Michael Douglas](https://github.com/MichaelDouglasCA) 🚀
+
+---
