@@ -3,6 +3,9 @@
 
 🚀 Biblioteca de máscaras para JavaScript e TypeScript, ideal para formatação de números, datas, CPF, CNPJ, telefones e muito mais.
 
+🔗 **NPM:** [mask-utils-ccg](https://www.npmjs.com/package/mask-utils-ccg)
+
+
 ## 📦 Instalação
 
 Você pode instalar o pacote via **npm** ou **yarn**:
